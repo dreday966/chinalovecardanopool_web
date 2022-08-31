@@ -34,7 +34,7 @@ export const A = () => {
     <Section
       q="Q: 如何进行质押？"
       a={<div>
-        <p>首先需要将ada代币转移到钱包，然后根据在钱包中选择质押池进行质押。大部分钱包都会提供质押的功能。下面我们以Chrome浏览器上使用Eternl wallet进行举例。</p>
+        <p>首先需要将ada代币转移到钱包，然后在钱包中选择质押池进行质押。大部分钱包都会提供质押的功能。下面我们以Chrome浏览器上使用Eternl wallet进行举例。</p>
         {/* <p></p> */}
         <p>1. 安装一个Eternl wallet钱包，在Google搜索"Eternl Chrome Web Store"。</p>
         <img style={{width: "100%"}} src={staking_step_0}/>
