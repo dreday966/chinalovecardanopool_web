@@ -10,7 +10,7 @@ import staking_step_6 from "../imgs/staking_step_6.png";
 import staking_step_7 from "../imgs/staking_step_7.png";
 import staking_step_8 from "../imgs/staking_step_8.png";
 import staking_step_9 from "../imgs/staking_step_9.png";
-import { poolName } from "../utils/poolInfo";
+import { poolName, poolNameShort } from "../utils/poolInfo";
 
 export const A = () => {
   return <div>
@@ -52,7 +52,7 @@ export const A = () => {
         <img style={{width: "100%"}} src={staking_step_7}/>
         <p>8. 钱包生成之后，没有ADA代币，点击"Receive"，复制一份地址后，就可以把交易所里的代币转移到这个钱包</p>
         <img style={{width: "100%"}} src={staking_step_8}/>
-        <p>9. 接收到代币之后，点击"Staking"，就可以搜索一个质押池子点击"Delegate"进行质押。<span style={{color: 'orange'}}>这里如果你愿意支持我们的"{poolName}"池，可以搜索 "{poolName}" 然后进行质押。</span></p>
+        <p>9. 接收到代币之后，点击"Staking"，就可以搜索一个质押池子点击"Delegate"进行质押。<span style={{color: 'orange'}}>这里如果你愿意支持我们的"{poolName}"池，可以搜索 "{poolNameShort}" 然后进行质押。</span></p>
         <img style={{width: "100%"}} src={staking_step_9}/>
 
 
