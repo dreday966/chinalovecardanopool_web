@@ -1,2 +1,2 @@
-export const poolName = "ChinaLoveCardanoPool"
-export const poolNameShort = "CLCP"
+export const poolName = "Cardano Chinese Community Pool"
+export const poolNameShort = "CCCP"
