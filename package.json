@@ -19,6 +19,7 @@
     "react-json-view": "^1.21.3",
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
+    "react-windows-xp": "^0.7.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

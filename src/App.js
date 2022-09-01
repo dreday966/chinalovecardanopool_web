@@ -6,21 +6,29 @@ import { Routes, Route, Link } from "react-router-dom";
 import { A } from './routeComponents/a';
 import { B } from './routeComponents/b';
 import { poolName, poolNameShort } from './utils/poolInfo';
+import { Typography, Window, Wallpaper } from 'react-windows-xp';
 
 function App() {
   return (
-    <div style={{overflow: 'scroll', height: '100vh', background: '#198964', padding: '20px 2%'}}>
-      <div ><span style={{fontSize: '40px'}}>Cardano 中文社区质押池</span></div>
-      <div style={{marginTop: '10px'}}><i>{poolName} </i>[{poolNameShort}] </div> 
-      {/* <div>Cardano Chinese Comunity Pool</div> */}
-      <div style={{marginTop: '50px'}}>
-        <Routes>
-          <Route path="/" element={<A />} />
-          <Route path="/b" element={<B />} />
-        </Routes>
+    <div>
+      <div style={{ 
+        background: "url(https://i.imgur.com/Zk6TR5k.jpg) no-repeat center center fixed",
+        padding: '10px 2%', 
+        zIndex: '2'
+        }}>
+        <h1 style={{ margin: '20px 0px 0px 0px' }}><Typography style={{ margin: '0' }} variant='h2' >Cardano 中文社区质押池</Typography></h1>
+        <Typography variant='paragraph' style={{ marginTop: '10px' }}><i>{poolName} </i>[{poolNameShort}] </Typography>
+        {/* <div>Cardano Chinese Comunity Pool</div> */}
+        <div style={{ marginTop: '20px' }}>
+          <Routes>
+            <Route path="/" element={<A />} />
+            <Route path="/b" element={<B />} />
+          </Routes>
+        </div>
+
       </div>
-      
     </div>
+
   );
 }
 
